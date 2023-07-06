@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="centralWidget">
+  <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+      <widget class="QLabel" name="title">
+        <property name="text">
+          <string>Aegis System</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+      </widget>
+    </item>
+    <item>
+      <widget class="QPushButton" name="combatButton">
+        <property name="text">
+         <string>Combat System Inventory</string>
+        </property>
+      </widget>
+    </item>
+    <item>
+      <widget class="QPushButton" name="dataButton">
+        <property name="text">
+         <string>Parametric Data Entry</string>
+        </property>
+      </widget>
+    </item>
+    <item>
+      <widget class="QCheckBox" name="styleSwitch"/>
+    </item>
+    <item>
+      <widget class="QLabel" name="label">
+        <property name="text">
+          <string>Style</string>
+        </property>
+      </widget>
+    </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
